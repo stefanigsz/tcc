@@ -1,0 +1,31 @@
+#header{
+    display:flex;
+    align-items:end;
+    justify-content: end;
+}
+
+img{
+    width:400px;
+    height:400px;
+}
+h2{
+    text-align: center;
+}
+.ripple-parent {
+    position: relative;
+    overflow: hidden;
+  
+    border: 1px solid #ddd;
+  }
+  
+  .rectangle {
+    width: 400px;
+    height: 150px;
+  }
+  
+  .rounded-rectangle {
+    width: 185px;
+    height: 65px;
+    border-radius: 8px;
+  }
+  
