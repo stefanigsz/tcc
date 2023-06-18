@@ -6,11 +6,7 @@ import { CadastrarPageModule } from './cadastrar.module';
   templateUrl: './cadastrar.page.html',
   styleUrls: ['./cadastrar.page.scss'],
 })
-export class CadastrarPage implements OnInit {
-
-  constructor() { }
-
-  ngOnInit() {
-  }
-
+export class CadastrarPage {
+  public alertButtons = ['OK'];
+ 
 }

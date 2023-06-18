@@ -29,7 +29,14 @@
     
               <ion-item lines="none">
                 <ion-button color="medium" shape="rounded" slot="start" routerLink="/home">Voltar</ion-button>
-                <ion-button color="primary" shape="rounded" slot="end" routerLink="/home">Login</ion-button>
+                <ion-button color="primary" shape="rounded" slot="end">Cadastrar</ion-button>
+                <ion-alert 
+                  trigger="present-alert"
+                  header="Cadastro Concluído!"
+                  message="Seu cadastro foi concluído com sucesso!"
+                  [buttons]="alertButtons"
+                  routerLink="/home"
+                ></ion-alert> 
               </ion-item>
     
             </ion-card-content>
