@@ -24,3 +24,4 @@ Configurações adicionadas ao projeto:
     @schematics/angular             15.2.6
     rxjs                            7.5.7
     typescript                      4.8.4
+# calculadora
