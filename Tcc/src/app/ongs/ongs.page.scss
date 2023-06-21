@@ -2,11 +2,18 @@ p{
     margin-left: 4px;
 }
 
-.img{
-    width: 700px;
+ion-img{
+    width: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+
+
+
+ion-content{
+    margin: 12px;
 }
 
 h2{
@@ -21,12 +28,9 @@ h1{
 }
 
 h3{
-    font-size: 18px;
+    font-size: 20px;
 }
 
-ion-img{
+.logo{
     width: 200px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
