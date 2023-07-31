@@ -1,0 +1,23 @@
+.fundo{
+    --background: url('https://64.media.tumblr.com/7dccd6443210b4ea361287df3d026e79/64079bea55dc0546-c8/s540x810/0a1afd3645343414eeed120db09e7125220ce4c9.jpg') no-repeat center center / cover;
+}
+
+
+        .container {
+        width: 100vw;
+        height: 100vh;
+        background: #6C7A89;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        }
+        .box {
+        width: 300px;
+        height: 300px;
+        background: #fff;
+        }
+        body {
+        margin: 0px;
+        }
+       
