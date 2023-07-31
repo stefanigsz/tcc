@@ -39,6 +39,22 @@ const routes: Routes = [
     path: 'davinci',
     loadChildren: () => import('./davinci/davinci.module').then( m => m.DavinciPageModule)
   },
+  {
+    path: 'josephine-baker',
+    loadChildren: () => import('./josephine-baker/josephine-baker.module').then( m => m.JosephineBakerPageModule)
+  },
+  {
+    path: 'marsha-johnson',
+    loadChildren: () => import('./marsha-johnson/marsha-johnson.module').then( m => m.MarshaJohnsonPageModule)
+  },
+  {
+    path: 'inicio',
+    loadChildren: () => import('./inicio/inicio.module').then( m => m.InicioPageModule)
+  },
+  {
+    path: 'alan-turing',
+    loadChildren: () => import('./alan-turing/alan-turing.module').then( m => m.AlanTuringPageModule)
+  },
 ];
 
 @NgModule({
