@@ -1,86 +1,59 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-     <ion-row>
-      <ion-col size="12" size-lg="6" size-xl="9">
-        <ion-title routerLink="/inicio"  >
-         🏳️‍🌈Pride 
-        </ion-title>
-      </ion-col>
+<ion-toolbar>
+  <ion-buttons slot="secondary">
+    <ion-button fill="solid" routerLink="/login">
+      <ion-icon slot="start" name="person-circle"></ion-icon>
+      Login
+    </ion-button>
+  </ion-buttons>
 
+  <ion-buttons slot="primary">
+    <ion-button fill="solid" routerLink="/cadastrar">
+      Cadastro
+      <ion-icon slot="end" name="person-circle"></ion-icon>
+    </ion-button>
+  </ion-buttons>
 
-      <ion-col size="6" size-lg="4" size-xl="1">
-        <ion-button color="danger" shape="rounded" routerLink="/login">Login</ion-button>
-      </ion-col>
+  <ion-title>Solid Buttons</ion-title>
+</ion-toolbar>
 
-      <ion-col size="6" size-lg="4" size-xl="1">
-        <ion-button color="danger" shape="rounded" routerLink="/cadastrar">Cadastrar-se</ion-button>
-      </ion-col>
-     </ion-row>
-
-  </ion-toolbar>
-</ion-header>
-
-<ion-content [fullscreen]="true">
-
-  <h2>Ajude a Comunidade LGBT!</h2>
   
-  <ion-row>
-    <ion-col size="12" size-lg="4" size-xl="3">
-      <ion-card routerLink="/trans">
-        <img alt="Bandeira Love is Love" src="https://i0.wp.com/ezatamentchy.com.br/wp-content/uploads/2019/10/desenho-de-um-trans-8.jpg?fit=700%2C701&ssl=1" />
-        <ion-card-header>
-          <ion-card-title>Comunidade TRANS</ion-card-title>
-        </ion-card-header>
-        <ion-card-content>
-          Here's a small text description for the card content. Nothing more, nothing le.
-        </ion-card-content>
-      </ion-card>
-    </ion-col>
-
-    <ion-col size="12" size-lg="4" size-xl="3">
-      <ion-card routerLink="/ongs">
-        <img alt="Bandeira Love is Love" src="https://cdn.pixabay.com/photo/2021/08/25/17/59/pride-6574143_1280.png"/>
-        <ion-card-header>
-          <ion-card-title>ONGS Da Comunidade LGBT</ion-card-title>
-        </ion-card-header>
-        <ion-card-content>
-          Here's a small text description for the card content. Nothing more, nothing le.
-        </ion-card-content>
-      </ion-card>
-    
-    </ion-col>
-
-    <ion-col size="12" size-lg="4" size-xl="3">
-      <ion-card routerLink="/figuras">
-        <img alt="Bandeira Love is Love" src="https://img.wattpad.com/d2536155ef7c732cdb60c15de706e6f26eeaa771/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f776174747061642d6d656469612d736572766963652f53746f7279496d6167652f4d4a4b5250624852326e6a7262773d3d2d3731373835323337332e313539343265386439656138333565373538363333323033373438382e6a7067?s=fit&w=720&h=720" />
-        <ion-card-header>
-          <ion-card-title>Figuras LGBTQUIA+</ion-card-title>
-        </ion-card-header>
-        <ion-card-content>
-          Aqui você pode encontrar figuras históricas e atuais,que fazem parte da Comunidade LGBTQIA+!
-        </ion-card-content>
-      </ion-card>
-    </ion-col>
+  <ion-content [fullscreen]="true" class="fundo">
+   
+  
+  <h1>Instituto Paulo Gustavo</h1>
+  
+  <ion-tabs>
+    <ion-tab-bar slot="bottom">
+      <ion-tab-button tab="comunidade">
+        <ion-icon name="play-circle" routerLink="/trans"> </ion-icon>
+       Comunidade Trans      
+      </ion-tab-button>
+  
+      <ion-tab-button tab="radio">
+     <ion-icon name="accessibility-outline" routerLink="/ongs"></ion-icon>
+          ONGS      
+      </ion-tab-button>
+  
+      <ion-tab-button tab="library">
+        <ion-icon name="library" routerLink="/figuras"></ion-icon>
+      Figuras      
+      </ion-tab-button>
+  
+      <ion-tab-button tab="search">
+        <ion-icon name="search" routerLink="/trans"></ion-icon>
+        Entrevistas      
+      </ion-tab-button>
+    </ion-tab-bar>
+  </ion-tabs>
+  
+  
+  <p align="center" top="300px">
 
 
-    <ion-col size="12" size-lg="4" size-xl="3">
-      <ion-card routerLink="/entrevistas">
-        <img alt="Bandeira Love is Love" src="https://img.freepik.com/vetores-premium/casal-masculino-homossexual-dos-desenhos-animados-abracando-cobrindo-ilustracao-plana-do-vetor-da-bandeira-do-arco-iris-dois-namorados-barbudos-beijando-desfrutando-de-relacionamento-isolado-no-branco-pessoas-lgbt-demonstram-amor-pela-liberdade_198278-8921.jpg?w=2000" />
-        <ion-card-header>
-          <ion-card-title>Entrevistas</ion-card-title>
-        </ion-card-header>
-        <ion-card-content>
-          Here's a small text description for the card content. Nothing more, nothing le.
-        </ion-card-content>
-      </ion-card>
-    </ion-col>
+  </p>
+  
+  
+  
+  
 
-  </ion-row>
-</ion-content>
-
-<ion-footer>
-  <ion-toolbar>
-    <ion-title>Agradecemos pelo Apoio!</ion-title>
-  </ion-toolbar>
-</ion-footer>
-
+  </ion-content>

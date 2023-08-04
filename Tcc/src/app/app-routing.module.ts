@@ -47,13 +47,14 @@ const routes: Routes = [
     path: 'marsha-johnson',
     loadChildren: () => import('./marsha-johnson/marsha-johnson.module').then( m => m.MarshaJohnsonPageModule)
   },
-  {
-    path: 'inicio',
-    loadChildren: () => import('./inicio/inicio.module').then( m => m.InicioPageModule)
-  },
+  
   {
     path: 'alan-turing',
     loadChildren: () => import('./alan-turing/alan-turing.module').then( m => m.AlanTuringPageModule)
+  },
+  {
+    path: 'segundapag',
+    loadChildren: () => import('./segundapag/segundapag.module').then( m => m.SegundapagPageModule)
   },
 ];
 
